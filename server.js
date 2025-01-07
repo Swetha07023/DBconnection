@@ -7,6 +7,7 @@ const PORT=5577;
 
 mongoclient.connect(process.env.MONGOURL).then(()=>{
     console.log("Database connected successfully")
+    console.log("i done")
 }).catch((error)=>{
     console.log(error)
 })
